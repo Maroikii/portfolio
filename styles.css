@@ -1,0 +1,50 @@
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #f8f9fb;
+  color: #1f2430;
+}
+
+.hero {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  background: #2b4c7e;
+  color: #fff;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.card-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #d6deeb;
+}
+
+.language-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
