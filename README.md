@@ -7,3 +7,4 @@ languages I know.
 
 - `index.html` - main portfolio page
 - `styles.css` - styles for layout and cards
+- `Art`- Folder for art
